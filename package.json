@@ -1,16 +1,16 @@
 {
-  "name": "semo-plugin-repl-tldr",
-  "version": "1.0.1",
-  "description": "A Semo plugin to provide ability to get tldr for common commands",
+  "name": "semo-plugin-repl-cheat",
+  "version": "0.0.0",
+  "description": "A Semo plugin to provide ability to get cheat sheet for common commands",
   "keywords": [
     "semo",
     "plugin",
     "repl",
-    "tldr"
+    "cheat"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/semojs/semo-plugin-repl-doc"
+    "url": "https://github.com/semojs/semo-plugin-repl-cheat"
   },
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -38,9 +38,7 @@
   },
   "dependencies": {
     "@semo/core": "^1.4.6",
-    "got": "^11.5.2",
-    "marked": "^1.1.1",
-    "marked-terminal": "^4.1.0"
+    "got": "^11.5.2"
   },
   "publishConfig": {
     "access": "public"

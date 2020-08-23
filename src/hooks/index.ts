@@ -1,12 +1,12 @@
 
-import { getTldr } from '../common/tldr'
+import { getCheat } from '../common/cheat'
 
 export = (Utils) => {
   return {
     hook_repl_command: new Utils.Hook('semo', () => {
       return {
-        tldr: {
-          help: 'Get commands help information from tldr',
+        cheat: {
+          help: 'Get commands help information from cheat.sh',
           async action(input) {
             if (!input) {
               Utils.warn('keyword is required')
@@ -16,7 +16,7 @@ export = (Utils) => {
               let opts = Utils.yParser(input)
               let keyword = opts._.join(' ')
 
-              await getTldr(keyword, opts)
+              await getCheat(keyword, opts)
 
                // @ts-ignore
               this.displayPrompt()

@@ -1,25 +1,18 @@
-# semo-plugin-repl-tldr
+# semo-plugin-repl-cheat
 
-A Semo plugin to provide ability to get tldr for common commands
+A Semo plugin to provide ability to get cheat sheet for common commands from [cheat.sh](cheat.sh)
 
 ## Installation & Usage
 
 ```
-npm i -g @semo/cli semo-plugin-repl-tldr
+npm i -g @semo/cli semo-plugin-repl-cheat
 semo repl --hook
->>> .tldr tar
->>> .tldr vue --lang=zh
->>> .tldr w --type=osx
+>>> .cheat tar
 ```
 
-## TODOs
+## Note
 
-- [x] support tldr type, `--type`
-- [x] support tldr translation `--lang`
-
-## Source
-
-Because the original [repo](https://github.com/tldr-pages/tldr) has access problem, I created a clone repo at [gitee](https://gitee.com/vipzhicheng/tldr/).
+There is also a similar plugin [semo-plugin-repl-tldr](https://github.com/semojs/semo-plugin-repl-tldr) exists. Feel free to choose what ever you like. I just try my best to  give you other choices.
 
 ## Licence
 
