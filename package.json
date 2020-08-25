@@ -6,7 +6,8 @@
     "semo",
     "plugin",
     "repl",
-    "cheat"
+    "cheat",
+    "sheet"
   ],
   "repository": {
     "type": "git",
