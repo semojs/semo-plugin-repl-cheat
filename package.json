@@ -1,6 +1,6 @@
 {
   "name": "semo-plugin-repl-sheet",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Semo plugin to provide ability to get cheat sheet for common commands",
   "keywords": [
     "semo",
