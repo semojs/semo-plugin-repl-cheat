@@ -1,11 +1,11 @@
 
-import { getCheat } from '../common/cheat'
+import { getSheet } from '../common/cheat'
 
 export = (Utils) => {
   return {
     hook_repl_command: new Utils.Hook('semo', () => {
       return {
-        cheat: {
+        sheet: {
           help: 'Get commands help information from cheat.sh',
           async action(input) {
             if (!input) {
@@ -16,7 +16,7 @@ export = (Utils) => {
               let opts = Utils.yParser(input)
               let keyword = opts._.join(' ')
 
-              await getCheat(keyword, opts)
+              await getSheet(keyword, opts)
 
                // @ts-ignore
               this.displayPrompt()
