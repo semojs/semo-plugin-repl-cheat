@@ -1,5 +1,5 @@
 
-import { getSheet } from '../common/cheat'
+import { getSheet } from '../common/sheet'
 
 export = (Utils) => {
   return {
