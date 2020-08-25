@@ -5,7 +5,7 @@ A Semo plugin to provide ability to get cheat sheet for common commands from [ch
 ## Installation & Usage
 
 ```
-npm i -g @semo/cli semo-plugin-repl-cheat
+npm i -g @semo/cli semo-plugin-repl-sheet
 semo repl --hook
 >>> .sheet tar
 ```
